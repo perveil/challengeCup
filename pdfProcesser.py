@@ -4,7 +4,6 @@ from PyPDF2.pdf import PdfFileReader
 import tabula
 import pandas as pd
 from openpyxl import load_workbook, Workbook
-import datetime
 
 
 def data_process2(dataframe2):

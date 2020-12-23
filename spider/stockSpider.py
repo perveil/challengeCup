@@ -47,12 +47,7 @@ for i in aimStocklist:
     company2filelist[str(i[1])]=filelist
 df=pd.DataFrame(company2filelist.values(),index=company2filelist.keys())
 df.to_excel(r'index/inde_xabout_SH_test.xlsx',index=company2filelist.keys())
-# print(stock_information)
-#print(stock_ii)
 
-
-# dataframe=pd.DataFrame(stock_ii)
-# dataframe.to_excel('index/information.xlsx')
 
 for i in company2filelist.keys():
     filelist=company2filelist[i]
